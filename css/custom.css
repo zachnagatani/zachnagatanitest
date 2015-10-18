@@ -182,6 +182,7 @@ li {
 	height: 35%;
 	display: table;
 	background-size: cover;
+	background-position: center;
 }
 }
 

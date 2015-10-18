@@ -181,7 +181,7 @@ li {
 	width: 100%;
 	height: 35%;
 	display: table;
-	background-size: contain;
+	background-size: cover;
 }
 }
 

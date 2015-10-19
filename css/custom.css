@@ -122,6 +122,12 @@ li {
 	padding-bottom: 60px;
 }
 
+/*#about {
+	background-color: #c2ceda;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+*/
 .about-picture {
 	padding-top: 10px;
 }
@@ -136,6 +142,18 @@ li {
 
 .about-sub-section {
 	padding-top: 40px;
+}
+
+/* WORK */
+
+#work {
+	background: url('../img/concrete_seamless.png') repeat;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.project-row {
+	padding: 50px;
 }
 
 /* MEDIA QUERIES */
@@ -177,6 +195,7 @@ li {
 	.about-center {
 		text-align: center;
 	}
+
 	/*.feature-image {
 	background: url('../img/hipster-mobile1.jpg') no-repeat fixed;
 	width: 100%;
@@ -185,6 +204,11 @@ li {
 	background-size: cover;
 	background-position: center;
 	}*/
+
+	.padding-bottom {
+		padding-bottom: 50px;
+	}
+
 }
 
 @media screen and (max-height : 715px) {

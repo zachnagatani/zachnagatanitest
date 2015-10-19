@@ -47,6 +47,10 @@ li {
 	background-color: rgba(61, 195, 145, .75);
 }
 
+.form-control {
+	border-radius: none !important;
+}
+
 /* HERO */
 
 #hero {
@@ -155,6 +159,32 @@ li {
 .project-row {
 	padding: 50px;
 }
+
+/* CONTACT */
+
+#contact {
+	background: url('../img/concrete_seamless.png') repeat;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.contact-col{
+	padding-top: 20px;
+}
+
+.contact-col-bottom {
+	padding-bottom: 60px;
+}
+
+.contact-row-top {
+	padding-top: 50px;
+}
+
+.v-center {
+  position: relative;
+  transform: translateY(60%);
+}
+
 
 /* MEDIA QUERIES */
 

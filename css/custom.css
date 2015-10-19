@@ -37,6 +37,16 @@ li {
 	font-family: 'raleway', 'myriad-pro', sans-serif;
 }
 
+a {
+	text-decoration: none !important;
+	color: #333 !important;
+}
+
+footer a:hover {
+	text-decoration: none !important;
+	margin-left: 2px;
+}
+
 .btn-cta {
 	color: #fff;
 	background-color: #3dc391;

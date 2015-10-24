@@ -29,9 +29,6 @@ body {
 	border: none;
 }
 
-footer {
-	height: 25%;
-}
 
 li {
 	font-family: 'raleway', 'myriad-pro', sans-serif;
@@ -42,10 +39,7 @@ a {
 	color: #333 !important;
 }
 
-footer a:hover {
-	text-decoration: none !important;
-	margin-left: 2px;
-}
+
 
 .btn-cta {
 	color: #fff;
@@ -66,13 +60,13 @@ footer a:hover {
 #hero {
 	background: url('../img/headshot.png');
 	width: 100%;
-	height: 100%;
+	height: 1080px;
 	background-size: cover;
 	background-position: fixed;
 }
 
 #hero-tag {
-	padding-top: 25%;
+	padding-top: 270px;
 }
 
 #work-cta {
@@ -87,7 +81,7 @@ footer a:hover {
 #social {
 	background-color: white;
 	border: none;
-	height: 75%;
+	height: 150px;
 	font-family: 'myriad-pro', 'raleway',  sans-serif;
 }
 
@@ -96,13 +90,20 @@ footer a:hover {
 	text-align: center;
 }
 
-/* COPYRIGHT */
+/* FOOTER */
+
+
+footer a:hover {
+	text-decoration: none !important;
+	margin-left: 2px;
+}
 
 #copyright {
 	background-color: #cccccc;
 	border: none;
-	height: 25%;
+	height: 75px;
 	font-family: 'raleway', 'myriad-pro', sans-serif;
+	padding-top: 8px;
 }
 
 #copyright-text {
@@ -248,6 +249,10 @@ footer a:hover {
 	.padding-bottom {
 		padding-bottom: 50px;
 	}
+
+	.center-img {
+		text-align: center;
+	} /* cause cols that contain images to be centered on mobile */
 
 }
 

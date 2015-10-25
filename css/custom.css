@@ -170,6 +170,27 @@ footer a:hover {
 	padding: 50px;
 }
 
+/* PROJECT */
+
+#project {
+	background: url('../img/concrete_seamless.png') repeat;
+	padding-top: 60px;
+	padding-bottom: 60px;
+
+}
+
+.proj-descript {
+	padding-top: 50px;
+}
+
+/*.launch-website {
+	padding-top: 50px;
+}*/
+
+.project-cta {
+	padding-top: 50px;
+}
+
 /* CONTACT */
 
 #contact {

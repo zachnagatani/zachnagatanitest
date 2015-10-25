@@ -183,9 +183,6 @@ footer a:hover {
 	padding-top: 50px;
 }
 
-/*.launch-website {
-	padding-top: 50px;
-}*/
 
 .project-cta {
 	padding-top: 50px;
@@ -269,6 +266,15 @@ footer a:hover {
 	.padding-bottom {
 		padding-bottom: 50px;
 	}
+	
+	.launch-website {
+	padding-top: 50px;
+	}
+
+	.btn-mobile {
+		padding-top: 50px;
+	}
+
 
 }
 

@@ -24,6 +24,11 @@ body {
 	height: 100%;
 }
 
+/*.navbar-default {
+	background: rgba(255,255,255,0.88) !important;
+	border: none;
+}*/
+
 .navbar-default {
 	background: rgba(255,255,255,0.88) !important;
 	border: none;
@@ -64,12 +69,13 @@ footer a:hover {
 /* HERO */
 
 #hero {
-	background-color: #C9D6DF;
+	background: url('../img/dark-bg.jpg') center;
 	width: 100%;
 	height: 100%;
 	background-size: cover;
 	background-position: fixed;
 }
+
 
 #hero-tag {
 	padding-top: 25%;
@@ -217,10 +223,10 @@ footer a:hover {
 /* MEDIA QUERIES */
 
 @media screen and (max-width : 991px) {
-	#hero .container {
+	/*#hero .container {
 		background: rgba(204, 204, 204, 0.7);
 		padding: 20px;
-	}
+	}*/
 
 	#work-cta {
 		padding-top: 100px;

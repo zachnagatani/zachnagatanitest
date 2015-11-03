@@ -220,6 +220,57 @@ footer a:hover {
 }
 
 
+/* MODAL-CONTACT */
+
+#modal-contact {
+	max-width: 100%;
+}
+
+.modal-contact-bg {
+	background: url('../img/concrete_seamless.png') repeat;
+}
+
+.contact-col{
+	padding-top: 20px;
+}
+
+.contact-col-bottom {
+	padding-bottom: 60px;
+}
+
+.contact-row-top {
+	padding-top: 50px;
+}
+
+.v-center {
+  position: relative;
+  transform: translateY(60%);
+}
+
+.modal-contact-header {
+  min-height: 16.42857143px;
+  padding: 15px;
+}
+
+.modal-contact-header .close {
+  margin-top: -2px;
+}
+
+.modal-contact-footer {
+  padding: 15px;
+  text-align: right;
+}
+.modal-contact-footer .btn + .btn {
+  margin-bottom: 0;
+  margin-left: 5px;
+}
+.modal-contact-footer .btn-group .btn + .btn {
+  margin-left: -1px;
+}
+.modal-contact-footer .btn-block + .btn-block {
+  margin-left: 0;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width : 991px) {

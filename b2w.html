@@ -86,7 +86,7 @@
             <h2 class="myriad-pro about-center">Like what you see?</h2>
           </div><!-- col -->
           <div class="col-md-5 col-md-offset-2 btn-mobile">
-            <a href="contact.html"><button type="button" class="btn btn-cta btn-lg btn-block raleway">Contact Me Now!</button></a>
+            <!-- <a href="contact.html"> --><button type="button" class="btn btn-cta btn-lg btn-block raleway" data-toggle="modal" data-target="#myModal">Contact Me Now!</button><!-- </a> -->
           </div><!-- col -->
         </div><!-- row -->
       </div><!-- container -->
@@ -126,6 +126,74 @@
       </section><!-- copyright -->
 
     </footer>
+
+    <!-- CONTACT MODAL -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content modal-contact-bg">
+      <div class="modal-contact-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <!-- <h4 class="modal-title" id="myModalLabel">Modal title</h4> -->
+      </div>
+      <div class="modal-body">
+        
+        <!-- CONTACT -->
+  
+          <div class="container" id="modal-contact">
+            <div class="row">
+                  <div class="col-md-12">
+                    <h2 class="raleway text-center">I'll be sure to respond as soon as possible.</h2>
+                  </div><!-- col -->
+                </div><!-- row -->
+
+               <form class="clearfix" role="form" method="post" action="mail.php" id="contact-form">
+                <div class="row contact-row-top">
+                  <div class="col-md-3 contact-col">
+                    <input type="text" class="form-control input-lg text-center" id="contact-name" name="name" placeholder="Name*">
+                  </div><!-- col -->
+                  <div class="col-md-3 contact-col">
+                    <input type="email" class="form-control input-lg text-center" id="contact-email" name="email" placeholder="Email*">
+                  </div><!-- col -->
+                  <div class="col-md-6 contact-col">
+                    <input type="text" class="form-control input-lg text-center" id="contact-company" name="company" placeholder="Company/Organization">
+                  </div><!-- col -->
+                </div><!-- row -->
+
+            <div class="row">
+              <div class="col-md-3 contact-col">
+                <input type="text" class="form-control input-lg text-center" id="contact-timeline" name="timeline" placeholder="Timeline*">
+              </div><!-- col -->
+              <div class="col-md-3 contact-col">
+                <input type="text" class="form-control input-lg text-center" id="contact-budget" name="budget" placeholder="Budget Range*">
+              </div><!-- col -->
+              <div class="col-md-6 contact-col">
+                <input type="text" class="form-control input-lg text-center" id="contact-website" name="website" placeholder="Current Website">
+              </div><!-- col -->
+            </div><!-- row -->
+
+            <div class="row">
+              <div class="col-md-8 contact-col">
+                <textarea class="form-control input-lg text-center" id="contact-message" name="message" placeholder="Tell me about the project...*" rows="5"></textarea>
+              </div><!-- col -->
+              <div class="col-md-3 col-md-offset-1 contact-col-bottom v-center">
+                <input type="submit" class="btn btn-cta btn-lg btn-block raleway" name="contact-submit" value="GO!" />
+              </div><!-- col -->
+            </div><!-- row -->
+          </form>
+          </div><!-- container -->
+       
+
+        <div class="modal-contact-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+        </div>
+      
+      </div>
+      
+     
+    </div>
+  </div>
+</div><!-- contact modal -->
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

@@ -68,40 +68,40 @@
 	          </div><!-- col -->
 	        </div><!-- row -->
 
-	       <form class="clearfix" role="form">
-			<div class="row contact-row-top">
-				<div class="col-md-3 contact-col">
-					<input type="text" class="form-control input-lg text-center" id="contact-name" placeholder="Name*">
-				</div><!-- col -->
-				<div class="col-md-3 contact-col">
-					<input type="email" class="form-control input-lg text-center" id="contact-email" placeholder="Email*">
-				</div><!-- col -->
-				<div class="col-md-6 contact-col">
-					<input type="text" class="form-control input-lg text-center" id="contact-company" placeholder="Company/Organization">
-				</div><!-- col -->
-			</div><!-- row -->
+	       <form class="clearfix" role="form" method="post" action="mail.php" id="contact-form">
+      <div class="row contact-row-top">
+        <div class="col-md-3 contact-col">
+          <input type="text" class="form-control input-lg text-center" id="contact-name" name="name" placeholder="Name*">
+        </div><!-- col -->
+        <div class="col-md-3 contact-col">
+          <input type="email" class="form-control input-lg text-center" id="contact-email" name="email" placeholder="Email*">
+        </div><!-- col -->
+        <div class="col-md-6 contact-col">
+          <input type="text" class="form-control input-lg text-center" id="contact-company" name="company" placeholder="Company/Organization">
+        </div><!-- col -->
+      </div><!-- row -->
 
-			<div class="row">
-				<div class="col-md-3 contact-col">
-					<input type="text" class="form-control input-lg text-center" id="contact-timeline" placeholder="Timeline ex: 2-4 weeks*">
-				</div><!-- col -->
-				<div class="col-md-3 contact-col">
-					<input type="text" class="form-control input-lg text-center" id="contact-budget" placeholder="Budget ex: $500-1000*">
-				</div><!-- col -->
-				<div class="col-md-6 contact-col">
-					<input type="text" class="form-control input-lg text-center" id="contact-website" placeholder="Current Website">
-				</div><!-- col -->
-			</div><!-- row -->
+      <div class="row">
+        <div class="col-md-3 contact-col">
+          <input type="text" class="form-control input-lg text-center" id="contact-timeline" name="timeline" placeholder="Timeline ex: 2-4 weeks*">
+        </div><!-- col -->
+        <div class="col-md-3 contact-col">
+          <input type="text" class="form-control input-lg text-center" id="contact-budget" name="budget" placeholder="Budget ex: $500-1000*">
+        </div><!-- col -->
+        <div class="col-md-6 contact-col">
+          <input type="text" class="form-control input-lg text-center" id="contact-website" name="website" placeholder="Current Website">
+        </div><!-- col -->
+      </div><!-- row -->
 
-			<div class="row">
-				<div class="col-md-8 contact-col">
-					<textarea class="form-control input-lg text-center" id="contact-message" placeholder="Tell me about the project...*" rows="5"></textarea>
-				</div><!-- col -->
-				<div class="col-md-3 col-md-offset-1 contact-col-bottom v-center">
-					<button type="button" class="btn btn-cta btn-lg btn-block raleway">GO!</button>
-				</div><!-- col -->
-			</div><!-- row -->
-		</form>
+      <div class="row">
+        <div class="col-md-8 contact-col">
+          <textarea class="form-control input-lg text-center" id="contact-message" name="message" placeholder="Tell me about the project...*" rows="5"></textarea>
+        </div><!-- col -->
+        <div class="col-md-3 col-md-offset-1 contact-col-bottom v-center">
+          <input type="submit" class="btn btn-cta btn-lg btn-block raleway" name="contact-submit" value="GO!" />
+        </div><!-- col -->
+      </div><!-- row -->
+    </form>
 		</div><!-- container -->
 	</section><!-- contact -->
 

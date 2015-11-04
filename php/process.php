@@ -1,45 +1,13 @@
 <?php
 
-// NAME
-if (empty($_POST["name"])) {
-    $errorMSG = "Name is required ";
-} else {
-	$name = $_POST['name'];
-}
-
-// EMAIL
-if (empty($_POST["email"])) {
-    $errorMSG . = "Email is required ";
-} else {
-	$email = $_POST['email'];
-}
-
-//TIMELINE
-if (empty($_POST["timeline"])) {
-    $errorMSG .= "Timeline is required ";
-} else {
-	$timeline = $_POST['timeline'];
-}
-
-// BUDGET
-if (empty($_POST["budget"])) {
-    $errorMSG .= "Budget is required ";
-} else {
-	$budget = $_POST['budget'];
-}
-
-
+$name = $_POST['name'];
+$email = $_POST['email'];
+$timeline = $_POST['timeline'];
+$budget = $_POST['budget'];
 $company = $_POST['company'];
-
 $website = $_POST['website'];
-
-// MESSAGE
-if (empty($_POST["message"])) {
-    $errorMSG .= "Message is required ";
-} else {
-	$message = $_POST['message'];
- }
-
+$message = $_POST['message'];
+ 
 $EmailTo = "zachnagatani@gmail.com";
 $Subject = "New Project Inquiry Received";
  
@@ -76,14 +44,10 @@ $Body .= "\n";
 $success = mail($EmailTo, $Subject, $Body, "From:".$email);
  
 // redirect to success page
-if ($success && $errorMSG == ""){
+if ($success){
    echo "success";
 }else{
-    if($errorMSG == ""){
-        echo "Something went wrong :(";
-    } else {
-        echo $errorMSG;
-    }
+    echo "invalid";
 }
 
 ?>

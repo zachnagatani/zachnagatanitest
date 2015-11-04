@@ -66,6 +66,11 @@ footer a:hover {
 	border-radius: none !important;
 }
 
+.alert-custom {
+	color: #fff;
+	background-color: rgba(61, 195, 145, .75);
+}
+
 /* HERO */
 
 #hero {

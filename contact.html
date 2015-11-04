@@ -70,34 +70,34 @@
 
         <form class="clearfix" role="form" method="post" action="process.php" id="contact-form">
           <div class="row contact-row-top">
-            <div class="col-md-3 contact-col">
-              <input type="text" class="form-control input-lg text-center" id="contact-name" name="name" placeholder="Name*">
+            <div class="col-md-3 contact-col form-group">
+              <input type="text" class="form-control input-lg text-center" id="contact-name" name="name" placeholder="Name*" required="required">
             </div><!-- col -->
-            <div class="col-md-3 contact-col">
-              <input type="email" class="form-control input-lg text-center" id="contact-email" name="email" placeholder="Email*">
+            <div class="col-md-3 contact-col form-group">
+              <input type="email" class="form-control input-lg text-center" id="contact-email" name="email" placeholder="Email*" required="required">
             </div><!-- col -->
-            <div class="col-md-6 contact-col">
+            <div class="col-md-6 contact-col form-group">
               <input type="text" class="form-control input-lg text-center" id="contact-company" name="company" placeholder="Company/Organization">
             </div><!-- col -->
           </div><!-- row -->
 
           <div class="row">
-            <div class="col-md-3 contact-col">
-              <input type="text" class="form-control input-lg text-center" id="contact-timeline" name="timeline" placeholder="Timeline ex: 2-4 weeks*">
+            <div class="col-md-3 contact-col form-group">
+              <input type="text" class="form-control input-lg text-center" id="contact-timeline" name="timeline" placeholder="Timeline ex: 2-4 weeks*" required="required">
             </div><!-- col -->
-            <div class="col-md-3 contact-col">
-              <input type="text" class="form-control input-lg text-center" id="contact-budget" name="budget" placeholder="Budget ex: $500-1000*">
+            <div class="col-md-3 contact-col form-group">
+              <input type="text" class="form-control input-lg text-center" id="contact-budget" name="budget" placeholder="Budget ex: $500-1000*" required="required">
             </div><!-- col -->
-            <div class="col-md-6 contact-col">
+            <div class="col-md-6 contact-col form-group">
               <input type="text" class="form-control input-lg text-center" id="contact-website" name="website" placeholder="Current Website">
             </div><!-- col -->
           </div><!-- row -->
 
           <div class="row">
-            <div class="col-md-8 contact-col">
-              <textarea class="form-control input-lg text-center" id="contact-message" name="message" placeholder="Tell me about the project...*" rows="5"></textarea>
+            <div class="col-md-8 contact-col form-group">
+              <textarea class="form-control input-lg text-center" id="contact-message" name="message" placeholder="Tell me about the project...*" rows="5" required="required"></textarea>
             </div><!-- col -->
-            <div class="col-md-3 col-md-offset-1 contact-col-bottom v-center">
+            <div class="col-md-3 col-md-offset-1 contact-col-bottom v-center form-group">
               <!-- <input type="submit" class="btn btn-cta btn-lg btn-block raleway" name="contact-submit" value="GO!" /> -->
               <button type="submit" id="form-submit" class="btn btn-cta btn-lg btn-block raleway ">Go!</button>
             </div><!-- col -->

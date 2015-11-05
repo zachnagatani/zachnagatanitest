@@ -14,17 +14,34 @@ function submitForm(){
     var website = $("#contact-website").val();
     var message = $("#contact-message").val();
  
-    $.ajax({
-        type: "POST",
-        url: "php/process.php",
-        data: "name=" + name + "&email=" + email + "&timeline=" + timeline  + "&budget=" + budget + "&company=" + company + "&website=" + website + "&message=" + message,
-        success : function(text){
-            if (text == "success"){
-                formSuccess();
-            }
-        }
-    });
+    // $.ajax({
+    //     type: "POST",
+    //     url: "php/process.php",
+    //     data: "name=" + name + "&email=" + email + "&timeline=" + timeline  + "&budget=" + budget + "&company=" + company + "&website=" + website + "&message=" + message,
+    //     success : function(text){
+    //         if (text == "success"){
+    //             formSuccess();
+    //         }
+    //     }
+    // });
 
+    $.ajax({
+      type: "POST",
+      url: "php/process.php",
+      data: "name=" + name + "&email=" + email + "&timeline=" + timeline  + "&budget=" + budget + "&company=" + company + "&website=" + website + "&message=" + message,
+      success : function(text){
+          if (text == "success"){
+              formSuccess();
+          } else {
+              submitMSG(false,text);
+          }
+      }
+  });
+}
 function formSuccess(){
     $( "#msgSubmit" ).removeClass( "hidden" );
+}
+
+function submitMSG(){
+      $( "#msgFail" ).removeClass( "hidden" );
 }

@@ -155,12 +155,10 @@ footer a:hover {
 */
 .about-picture {
 	padding-top: 10px;
-	border-radius: 50%;
 }
 
 .about-picture-alt {
 	padding-top: 25px;
-	border-radius: 50%;
 }
 
 .about-section {
@@ -169,10 +167,6 @@ footer a:hover {
 
 .about-sub-section {
 	padding-top: 40px;
-}
-
-#about img {
-	border-radius: 50%;
 }
 
 /* WORK */

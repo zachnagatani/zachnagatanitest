@@ -147,6 +147,10 @@ footer a:hover {
 	padding-bottom: 60px;
 }
 
+#abt-pic {
+	display: none;
+}
+
 /*#about {
 	background-color: #c2ceda;
 	padding-top: 60px;
@@ -337,6 +341,13 @@ footer a:hover {
 		padding-top: 50px;
 	}
 
+	#abt-pic {
+		display: inline;
+	}
+
+	#about-pic {
+		display: none;
+	}
 
 }
 

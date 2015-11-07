@@ -25,12 +25,16 @@ Color References
 	vertical-align: middle;
 }
 
-html {
-	height: 100%;
-}
-
+html,
 body {
 	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper {
+	min-height: 100%;
+	position: relative;
 }
 
 /*.navbar-default {
@@ -110,6 +114,7 @@ footer a:hover {
 	font-family: 'myriad-pro', 'raleway',  sans-serif;
 	display: table;
 	width: 100%;
+	padding-bottom: 61.188px;
 }
 
 #social .container {
@@ -131,6 +136,8 @@ footer a:hover {
 	font-family: 'raleway', 'myriad-pro', sans-serif;
 	display: table;
 	width: 100%;
+	position: absolute;
+	bottom: 0;
 }
 
 #copyright .container {
@@ -313,10 +320,10 @@ footer a:hover {
 		padding-top: 60px;
 	}
 
-	#hero {
+/*	#hero {
 		height: auto;
 		padding-bottom: 100px;
-	}
+	}*/
 
 	footer {
 		height: auto;

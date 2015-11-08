@@ -207,6 +207,11 @@ footer a:hover {
 	padding-bottom: 60px;
 }
 
+#work img {
+	height: 180px;
+	width: 180px;
+}
+
 .project-row {
 	padding: 50px;
 }
